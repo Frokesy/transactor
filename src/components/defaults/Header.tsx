@@ -3,7 +3,7 @@ const Header = () => {
     <div className="py-4 border-b-2 border-[#ccc]">
       <div className="w-[90vw] mx-auto flex justify-between items-center">
         <h1 className="text-[40px] font-semibold">Transactor</h1>
-        <div className="space-x-6 uppercase text-[14px] flex items-center">
+        <div className="space-x-10 uppercase text-[14px] flex items-center">
           <span>Products</span>
           <span>Wallet</span>
           <span>Company</span>

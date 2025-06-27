@@ -1,9 +1,10 @@
 import Container from "../../components/defaults/Container";
+import Hero from "../../components/sections/Hero";
 
 const Home = () => {
   return (
     <Container>
-      <h2>Home page</h2>
+      <Hero />
     </Container>
   );
 };
