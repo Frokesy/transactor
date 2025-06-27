@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
   return (
     <div className="py-4 border-b-2 border-[#ccc]">
@@ -5,7 +7,7 @@ const Header = () => {
         <h1 className="text-[40px] font-semibold">Transactor</h1>
         <div className="space-x-10 uppercase text-[14px] flex items-center">
           <span>Products</span>
-          <span>Wallet</span>
+          <NavLink to="/wallet">Wallet</NavLink>
           <span>Company</span>
           <span>Help</span>
         </div>
