@@ -1,4 +1,5 @@
 import Container from "../../components/defaults/Container";
+import Footer from "../../components/defaults/Footer";
 import Hero from "../../components/sections/Hero";
 import SectionOne from "../../components/sections/SectionOne";
 import SectionTwo from "../../components/sections/SectionTwo";
@@ -11,6 +12,7 @@ const Home = () => {
       <SectionOne />
       <SupportedCountries />
       <SectionTwo />
+      <Footer />
     </Container>
   );
 };

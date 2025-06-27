@@ -317,3 +317,42 @@ export const RedDotTwo = () => (
     </defs>
   </svg>
 );
+export const FooterDotAttachment = () => (
+  <svg
+    width="716"
+    height="570"
+    viewBox="0 0 716 570"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_f_317_312)">
+      <path
+        d="M397.5 477C451.348 477 495 437.377 495 388.5C495 339.623 451.348 300 397.5 300C343.652 300 300 339.623 300 388.5C300 437.377 343.652 477 397.5 477Z"
+        fill="#EF2D57"
+      />
+    </g>
+    <defs>
+      <filter
+        id="filter0_f_317_312"
+        x="0"
+        y="0"
+        width="795"
+        height="777"
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        />
+        <feGaussianBlur
+          stdDeviation="150"
+          result="effect1_foregroundBlur_317_312"
+        />
+      </filter>
+    </defs>
+  </svg>
+);
