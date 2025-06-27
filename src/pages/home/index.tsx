@@ -1,6 +1,7 @@
 import Container from "../../components/defaults/Container";
 import Hero from "../../components/sections/Hero";
 import SectionOne from "../../components/sections/SectionOne";
+import SectionTwo from "../../components/sections/SectionTwo";
 import SupportedCountries from "../../components/sections/SupportedCountries";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <SectionOne />
       <SupportedCountries />
+      <SectionTwo />
     </Container>
   );
 };
