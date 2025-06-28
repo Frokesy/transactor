@@ -8,7 +8,7 @@ import {
 
 const SectionTwo = () => {
   return (
-    <div className="mt-[15vh] pb-30 space-y-30">
+    <div className="mt-[10vh] pb-30 space-y-10 lg:space-y-30">
       <div className="w-[90vw] mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
         <div className="lg:w-[55%]">
           <h2 className="lg:text-[64px] text-[34px]">
@@ -42,19 +42,19 @@ const SectionTwo = () => {
         <div className="absolute lg:block hidden right-[30vw] -top-20">
           <RedDotTwo />
         </div>
-        <div className="w-[90vw] mx-auto border border-[#ccc] z-10 items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
+        <div className="w-[90vw] mx-auto border border-[#ccc] z-10 items-center rounded-2xl lg:px-10 p-4 flex lg:flex-row flex-col justify-between">
           <div className="lg:w-[55%] z-10">
-            <h2 className="lg:text-[64px] text-[34px]">
+            <h2 className="lg:text-[64px] text-[32px] font-semibold">
               Our Easy Steps For Registration
             </h2>
-            <p className="lg:text-[24px] lg:mt-20 mt-4">No hidden charges</p>
+            <p className="lg:text-[24px] lg:mt-10 mt-4">No hidden charges</p>
             <p className="lg:text-[24px]">No frustrating delays.</p>
             <p className="lg:text-[24px]">
               Just a few taps, and your money flies home—fast, fair, and
               fuss-free.
             </p>
 
-            <div className="space-y-6 lg:mt-20 mt-6">
+            <div className="space-y-6 lg:mt-10 mt-6">
               <div className="flex items-center space-x-3">
                 <SignInIcon />
                 <p className="text-[18px]">No frustrating delays.</p>
@@ -70,11 +70,16 @@ const SectionTwo = () => {
             </div>
           </div>
 
-          <div className="lg:w-[40%] lg:mt-0 mt-10 z-10">
+          <div className="lg:w-[40%] z-10">
+            <img
+              src="/assets/body-img-two-mobile.png"
+              alt="Section Two Image"
+              className="w-[100%] lg:hidden block object-cover"
+            />
             <img
               src="/assets/body-img-two.png"
               alt="Section Two Image"
-              className="w-[100%] object-cover"
+              className="w-[90%] lg:block hidden h-[800px]"
             />
           </div>
         </div>
@@ -86,9 +91,16 @@ const SectionTwo = () => {
 
       <div className="w-[90vw] mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
         <div className="lg:w-[55%]">
-          <h2 className="lg:text-[64px] text-[34px] lg:text-start text-center">
+          <h2 className="lg:text-[64px] text-[34px] lg:text-start text-center lg:font-normal font-bold">
             Your Money. Safe. Always.
           </h2>
+          <div className="lg:w-[40%] h-[270px] block lg:hidden lg:mt-0 mt-10">
+            <img
+              src="/assets/body-img-three.png"
+              alt="Section Two Image"
+              className="w-[100%] object-cover"
+            />
+          </div>
           <p className="lg:text-[24px] mt-4 lg:mt-10">
             At Transactor, security isn’t just a feature It’s a promise. From
             the moment you click send, your funds are protected by bank-level
@@ -109,7 +121,7 @@ const SectionTwo = () => {
           </p>
         </div>
 
-        <div className="lg:w-[40%] lg:mt-0 mt-10">
+        <div className="lg:w-[40%] lg:block hidden lg:mt-0 mt-10">
           <div>
             <StarIcon />
           </div>

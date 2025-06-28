@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Container from "../../components/defaults/Container";
 import Footer from "../../components/defaults/Footer";
 import Newsletter from "../../components/defaults/Newsletter";
@@ -13,18 +14,18 @@ const Blog = () => {
     author: "Joseph",
     date: "August 2, 2025",
     avatar: "/assets/avatar.png",
+    link: "/blog/1",
   };
 
   const blogItems = Array(6).fill(repeatedItem);
 
   return (
     <Container>
-      <h2 className="lg:text-[66px] text-[32px] text-center lg:w-[80%] w-[90%] mx-auto font-bold mt-14 lg:mt-[15vh]">
+      <h2 className="lg:text-[66px] text-[32px] text-center lg:w-[80%] w-[90%] mx-auto font-bold mt-14 lg:mt-[10vh]">
         Where every transfer tells a story - your story.
       </h2>
 
-      <div className="lg:mt-[20vh] mt-20 w-[90vw] mx-auto">
-        {/* Header & Filter Buttons */}
+      <div className="lg:mt-[10vh] mt-20 w-[90vw] mx-auto">
         <div className="flex justify-between flex-col lg:flex-row mb-20 space-y-6 lg:space-y-0">
           <h2 className="lg:text-[42px] text-[28px] font-semibold">
             Latest Posts
@@ -43,7 +44,6 @@ const Blog = () => {
           </div>
         </div>
 
-        {/* Blog Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {blogItems.map((item, index) => (
             <div
@@ -58,10 +58,14 @@ const Blog = () => {
               <button className="bg-[#EF2D57] text-[18px] font-semibold py-2 px-4 rounded-full">
                 {item.tag}
               </button>
-              <h2 className="text-[22px] font-semibold">{item.title}</h2>
+              <NavLink
+                to={item.link}
+                className="text-[22px] block font-semibold"
+              >
+                {item.title}
+              </NavLink>
               <p className="text-[14px] pb-10">{item.excerpt}</p>
 
-              {/* Author section */}
               <div className="flex items-center space-x-3 p-4 border-t-2 border-[#404040]">
                 <img
                   src={item.avatar}
@@ -79,7 +83,6 @@ const Blog = () => {
           ))}
         </div>
 
-        {/* Dummy Pagination */}
         <div className="mt-16 flex justify-center items-center space-x-4">
           <ArrowLeft />
           <button className="bg-[#EF2D57] text-white px-4 py-2 rounded-full">

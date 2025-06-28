@@ -13,7 +13,7 @@ html {
 
 .scroll-animation {
     display: flex;
-    animation: scroll 10s linear infinite;
+    animation: scroll 16s linear infinite;
 }
 
 .scroll-container {
@@ -66,7 +66,7 @@ input[type="number"] {
     }
     .scroll-animation {
         display: flex;
-        animation: scroll 8s linear infinite;
+        animation: scroll 14s linear infinite;
     }
     .scroll-content {
         display: flex;

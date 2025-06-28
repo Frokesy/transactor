@@ -23,7 +23,7 @@ const Cta = () => {
             </span>
           </button>
 
-          <div className="flex items-center pt-10 justify-center">
+          <div className="flex items-center justify-center">
             <img
               src="/assets/iPhones.png"
               alt="iOS Download"
@@ -48,7 +48,7 @@ const Cta = () => {
             </span>
           </button>
 
-          <div className="flex items-center pt-10 justify-center">
+          <div className="flex items-center justify-center">
             <img
               src="/assets/android.png"
               alt="Android Download"

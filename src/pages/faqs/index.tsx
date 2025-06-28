@@ -8,7 +8,7 @@ import {
   SearchIcon,
   TransferIcon,
   VerificationIcon,
-  MinusIcon, // make sure this exists, or replace with PlusIcon for now
+  MinusIcon,
 } from "../../components/svgs/Icons";
 import Footer from "../../components/defaults/Footer";
 
@@ -55,7 +55,7 @@ const FAQs = () => {
         <RedDotTwo />
       </div>
 
-      <h2 className="lg:text-[66px] text-[32px] text-center lg:w-[80%] mx-auto font-bold mt-[15vh]">
+      <h2 className="lg:text-[66px] text-[32px] text-center lg:w-[80%] mx-auto font-bold mt-[10vh]">
         Advice and answers from the Transactor Team
       </h2>
 
@@ -95,7 +95,7 @@ const FAQs = () => {
       </div>
 
       {/* FAQs */}
-      <div className="lg:mt-[20vh] lg:w-[70vw] w-[90vw] mx-auto">
+      <div className="lg:mt-[10vh] lg:w-[70vw] w-[90vw] mx-auto">
         <h2 className="lg:text-[66px] text-[30px] mt-14 lg:mt-0 font-semibold text-center">
           Security & Transfers – Frequently Asked Questions
         </h2>

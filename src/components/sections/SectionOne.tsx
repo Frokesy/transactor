@@ -24,7 +24,7 @@ const SectionOne = () => {
         <div className="lg:w-[45%] lg:mt-0 mt-10">
           <h2 className="text-[20px] font-semibold mb-4">Send Money</h2>
 
-          <div className="flex flex-col space-y-3 items-center">
+          <div className="flex flex-col space-y-4 items-center">
             <div className="w-[100%] flex justify-between items-center border border-[#ccc] p-6 rounded-2xl">
               <div className="">
                 <h3 className="text-[14px] font-medium">You Send</h3>
@@ -47,7 +47,6 @@ const SectionOne = () => {
               </div>
             </div>
           </div>
-
           <div className="w-[100%] lg:px-3 pt-10 pb-4">
             <div className="flex justify-between">
               <span className="lg:text-[14px] text-[12px] font-medium">
@@ -71,7 +70,14 @@ const SectionOne = () => {
             <span>
               This rate is for new customers only. One per customer. Limited
               time offer. Rates are subject to change. Promotional FX rate
-              applies to first £200. See Terms & Conditions for details
+              applies to first £200. See{" "}
+              <a
+                href="https://www.pesa.co/promo-terms-and-conditions"
+                className="text-[#EF2D57]"
+              >
+                Terms & Conditions
+              </a>{" "}
+              for details
             </span>
           </div>
 

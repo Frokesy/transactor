@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="absolute lg:block hidden left-0 top-0">
         <RedDot />
       </div>
-      <div className="flex lg:flex-row flex-col w-[90vw] mx-auto lg:pt-[15vh] pt-20">
+      <div className="flex lg:flex-row flex-col w-[90vw] mx-auto lg:pt-[10vh] pt-14">
         <div className="flex flex-col space-y-6 z-10 lg:w-[45%]">
           <h2 className="lg:text-[66px] text-[38px] text-center lg:text-start font-semibold">
             From Australia with Love – The Transactor Story
@@ -18,7 +18,7 @@ const Hero = () => {
             you in mind.
           </p>
 
-          <div className="flex lg:flex-row flex-col lg:space-x-10 font-semibold mt-20">
+          <div className="flex lg:flex-row flex-col lg:space-x-10 font-semibold mt-10 lg:mt-20">
             <button className="bg-[#EF2D57] lg:py-4 py-6 px-10 uppercase rounded-xl">
               Download App
             </button>

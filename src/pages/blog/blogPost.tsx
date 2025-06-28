@@ -6,7 +6,7 @@ const BlogPost = () => {
   return (
     <Container>
       <div className="w-[90vw] mx-auto">
-        <h2 className="lg:text-[66px] text-[32px] lg:w-[70%] font-bold mt-14 lg:mt-[15vh]">
+        <h2 className="lg:text-[66px] text-[32px] lg:w-[70%] font-bold mt-14 lg:mt-[10vh]">
           How One Transfer Sparked a Bakery in Nairobi
         </h2>
         <p className="text-[14px] lg:w-[60%]">
@@ -18,11 +18,11 @@ const BlogPost = () => {
         <img
           src="/assets/blog-img.png"
           alt="Blog Image"
-          className="lg:h-[674px] mt-10 w-[100%]"
+          className="lg:h-[504px] mt-10 w-[100%]"
         />
 
-        <div className="lg:w-[80%]">
-          <h2 className="lg:text-[42px] text-[28px] lg:w-[70%] font-bold mt-10 lg:mt-20">
+        <div className="lg:w-[60%] mx-auto">
+          <h2 className="lg:text-[42px] text-[28px] font-bold mt-10 lg:mt-20">
             Learn what you need to know before you invest in a virtual currency
           </h2>
           <p className="lg:text-[24px] mt-6">

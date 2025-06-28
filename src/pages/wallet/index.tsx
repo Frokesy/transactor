@@ -13,10 +13,10 @@ import {
 const Wallet = () => {
   return (
     <Container>
-      <h2 className="lg:text-[66px] text-[34px] text-center lg:w-[85%] mx-auto font-bold mt-14 lg:mt-[15vh]">
+      <h2 className="lg:text-[66px] text-[34px] text-center lg:w-[85%] mx-auto font-bold mt-14 lg:mt-[10vh]">
         Currency Conversion – Know Before You Send & Convert with Ease
       </h2>
-      <p className="lg:text-[32px] text-[20px] lg:w-[60%] mx-auto text-center my-10 lg:my-20">
+      <p className="lg:text-[32px] text-[20px] lg:w-[60%] mx-auto text-center my-10">
         Check real-time exchange rates from Australia to Africa. No surprises.
         No hidden fees.
       </p>
@@ -31,13 +31,13 @@ const Wallet = () => {
           <h2 className="lg:text-[64px] text-[32px] lg:text-start text-center font-bold">
             No Guesswork.
           </h2>
-          <p className="lg:text-[24px] mt-10 lg:mt-20 lg:text-start text-center ">
+          <p className="lg:text-[24px] mt-10 lg:text-start text-center ">
             Unlike many traditional banks, we show you the exact rate you’ll get
             — with no hidden margins or surprise deductions. What you see is
             what your recipient receives.
           </p>
 
-          <div className="space-y-6 lg:mt-20 mt-10">
+          <div className="space-y-6 mt-10">
             <h3 className="text-[20px] font-semibold">How it works</h3>
             <div className="flex items-center space-x-3">
               <SignInIcon />
@@ -73,7 +73,7 @@ const Wallet = () => {
         </div>
       </div>
 
-      <div className="lg:my-[15vh] my-10 w-[90vw] mx-auto text-center bg-[#fff] flex flex-col text-[#000] items-center justify-center space-y-6 rounded-2xl py-10">
+      <div className="lg:my-[8vh] my-10 w-[90vw] mx-auto text-center bg-[#fff] flex flex-col text-[#000] items-center justify-center space-y-6 rounded-2xl py-10">
         <RatesIcon />
         <div>
           <h2 className="lg:text-[64px] text-[32px] font-bold">

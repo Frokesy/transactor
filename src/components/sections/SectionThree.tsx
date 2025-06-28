@@ -44,8 +44,8 @@ const SectionThree = () => {
   ];
 
   return (
-    <div className="w-[90vw] mx-auto overflow-hidden mb-[15vh]">
-      <h2 className="text-[32px] lg:text-[96px] font-bold leading-tight lg:leading-[1.1]">
+    <div className="w-[90vw] mx-auto overflow-hidden mb-[8vh]">
+      <h2 className="text-[32px] lg:text-[80px] font-bold leading-tight lg:leading-[1.1]">
         Real People. Real Transfers. Real Impact.
       </h2>
 
