@@ -8,7 +8,7 @@ const Header = () => {
         <div className="space-x-10 uppercase text-[14px] flex items-center">
           <span>Products</span>
           <NavLink to="/wallet">Wallet</NavLink>
-          <span>Company</span>
+          <NavLink to="/about">Company</NavLink>
           <span>Help</span>
         </div>
         <div className="flex items-center space-x-6 uppercase text-[16px] font-semibold">
