@@ -1,5 +1,6 @@
 import Container from "../../components/defaults/Container";
 import Footer from "../../components/defaults/Footer";
+import Newsletter from "../../components/defaults/Newsletter";
 
 const BlogPost = () => {
   return (
@@ -58,6 +59,8 @@ const BlogPost = () => {
           </p>
         </div>
       </div>
+
+      <Newsletter />
 
       <div className="mt-20">
         <Footer />
