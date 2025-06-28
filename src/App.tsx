@@ -5,6 +5,7 @@ import Wallet from "./pages/wallet";
 import Company from "./pages/about";
 import Help from "./pages/help";
 import FAQs from "./pages/faqs";
+import Blog from "./pages/blog";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -13,6 +14,7 @@ const App = () => {
     { path: "/about", element: <Company /> },
     { path: "/help", element: <Help /> },
     { path: "/faqs", element: <FAQs /> },
+    { path: "/blog", element: <Blog /> },
   ]);
 
   return (

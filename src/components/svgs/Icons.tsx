@@ -615,3 +615,38 @@ export const MinusIcon = () => (
     </defs>
   </svg>
 );
+export const ArrowRight = () => (
+  <svg
+    width="36"
+    height="36"
+    viewBox="0 0 36 36"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="36" height="36" rx="18" fill="#EF2D57" />
+    <path
+      d="M16 12L21.5 17.5L16 23"
+      stroke="white"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+  </svg>
+);
+export const ArrowLeft = () => (
+  <svg
+    width="36"
+    height="36"
+    viewBox="0 0 36 36"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="36" height="36" rx="18" fill="white" fillOpacity="0.1" />
+    <path
+      d="M20.5 12L15 17.5L20.5 23"
+      stroke="white"
+      strokeOpacity="0.2"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+  </svg>
+);
