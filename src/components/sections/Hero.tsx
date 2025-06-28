@@ -4,30 +4,30 @@ const Hero = () => {
   return (
     <div className="relative">
       {/* background attachment */}
-      <div className="absolute left-0 top-0">
+      <div className="absolute lg:block hidden left-0 top-0">
         <RedDot />
       </div>
-      <div className="flex w-[90vw] mx-auto pt-[15vh]">
-        <div className="flex flex-col space-y-6 z-10 w-[45%]">
-          <h2 className="text-[66px] font-semibold">
+      <div className="flex lg:flex-row flex-col w-[90vw] mx-auto lg:pt-[15vh] pt-20">
+        <div className="flex flex-col space-y-6 z-10 lg:w-[45%]">
+          <h2 className="lg:text-[66px] text-[38px] text-center lg:text-start font-semibold">
             From Australia with Love – The Transactor Story
           </h2>
-          <p className="text-[24px] font-medium">
+          <p className="lg:text-[24px] font-medium text-center lg:text-start">
             Born out of a simple mission —to make money transfers from Australia
             to Africa faster, safer, and more human— we built Transactor with
             you in mind.
           </p>
 
-          <div className="flex space-x-10 font-semibold mt-20">
-            <button className="bg-[#EF2D57] py-4 px-10 uppercase rounded-xl">
+          <div className="flex lg:flex-row flex-col lg:space-x-10 font-semibold mt-20">
+            <button className="bg-[#EF2D57] lg:py-4 py-6 px-10 uppercase rounded-xl">
               Download App
             </button>
-            <button className="uppercase bg-[#fff] text-[#232323] py-4 px-10 rounded-xl">
+            <button className="uppercase bg-[#fff] text-[#232323] lg:mt-0 mt-6 lg:py-4 py-6 px-10 rounded-xl">
               Get Started Now
             </button>
           </div>
         </div>
-        <div className="w-[55%] -mt-14">
+        <div className="lg:w-[55%] lg:-mt-14 mt-10">
           <img
             src="/assets/hero-img.png"
             alt="Hero Image"

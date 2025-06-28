@@ -9,15 +9,15 @@ import {
 const SectionTwo = () => {
   return (
     <div className="mt-[15vh] pb-30 space-y-30">
-      <div className="w-[90vw] mx-auto border border-[#ccc] items-center rounded-2xl p-10 flex justify-between">
-        <div className="w-[55%]">
-          <h2 className="text-[64px]">
+      <div className="w-[90vw] mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
+        <div className="lg:w-[55%]">
+          <h2 className="lg:text-[64px] text-[34px]">
             At Transactor,{" "}
             <span className="font-bold">
               we see the story behind every dollar.
             </span>
           </h2>
-          <p className="text-[30px]">
+          <p className="lg:text-[30px] lg:mt-0 my-6">
             Every day, thousands of people wake up in Australia with Africa on
             their minds. They think of the mother in Lagos who never missed a
             school fee deadline. The sister in Nairobi starting her first
@@ -28,7 +28,7 @@ const SectionTwo = () => {
           </p>
         </div>
 
-        <div className="w-[40%]">
+        <div className="lg:w-[40%]">
           <img
             src="/assets/body-img-one.png"
             alt="Section Two Image"
@@ -39,20 +39,22 @@ const SectionTwo = () => {
 
       <div className="relative ">
         {/* background attachment */}
-        <div className="absolute right-[30vw] -top-20">
+        <div className="absolute lg:block hidden right-[30vw] -top-20">
           <RedDotTwo />
         </div>
-        <div className="w-[90vw] mx-auto border border-[#ccc] z-10 items-center rounded-2xl p-10 flex justify-between">
-          <div className="w-[55%] z-10">
-            <h2 className="text-[64px]">Our Easy Steps For Registration</h2>
-            <p className="text-[24px] mt-20">No hidden charges</p>
-            <p className="text-[24px]">No frustrating delays.</p>
-            <p className="text-[24px]">
+        <div className="w-[90vw] mx-auto border border-[#ccc] z-10 items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
+          <div className="lg:w-[55%] z-10">
+            <h2 className="lg:text-[64px] text-[34px]">
+              Our Easy Steps For Registration
+            </h2>
+            <p className="lg:text-[24px] lg:mt-20 mt-4">No hidden charges</p>
+            <p className="lg:text-[24px]">No frustrating delays.</p>
+            <p className="lg:text-[24px]">
               Just a few taps, and your money flies home—fast, fair, and
               fuss-free.
             </p>
 
-            <div className="space-y-6 mt-20">
+            <div className="space-y-6 lg:mt-20 mt-6">
               <div className="flex items-center space-x-3">
                 <SignInIcon />
                 <p className="text-[18px]">No frustrating delays.</p>
@@ -68,7 +70,7 @@ const SectionTwo = () => {
             </div>
           </div>
 
-          <div className="w-[40%] z-10">
+          <div className="lg:w-[40%] lg:mt-0 mt-10 z-10">
             <img
               src="/assets/body-img-two.png"
               alt="Section Two Image"
@@ -77,27 +79,29 @@ const SectionTwo = () => {
           </div>
         </div>
         {/* background attachment */}
-        <div className="absolute right-0 -bottom-30">
+        <div className="absolute lg:block hidden right-0 -bottom-30">
           <RedDotTwo />
         </div>
       </div>
 
-      <div className="w-[90vw] mx-auto border border-[#ccc] items-center rounded-2xl p-10 flex justify-between">
-        <div className="w-[55%]">
-          <h2 className="text-[64px]">Your Money. Safe. Always.</h2>
-          <p className="text-[24px] mt-10">
+      <div className="w-[90vw] mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
+        <div className="lg:w-[55%]">
+          <h2 className="lg:text-[64px] text-[34px] lg:text-start text-center">
+            Your Money. Safe. Always.
+          </h2>
+          <p className="lg:text-[24px] mt-4 lg:mt-10">
             At Transactor, security isn’t just a feature It’s a promise. From
             the moment you click send, your funds are protected by bank-level
             encryption, two-factor authentication, and real-time fraud detection
             systems designed to guard your money like it's our own.
           </p>
-          <p className="text-[24px] mt-10">
+          <p className="lg:text-[24px] mt-4 lg:mt-10">
             We work with regulated financial partners across Africa and
             Australia, ensuring compliance with global standards — and peace of
             mind with every transaction. But we also know trust isn’t built by
             algorithms alone. So we back it up with 24/7 human support.
           </p>
-          <p className="text-[24px] mt-10">
+          <p className="lg:text-[24px] mt-4 lg:mt-10">
             Real people. Real answers. Ready when you need us most. Because when
             you're sending money back home, you're not just sending currency.
             You're sending care. You're sending love. You're sending you. And we
@@ -105,7 +109,7 @@ const SectionTwo = () => {
           </p>
         </div>
 
-        <div className="w-[40%]">
+        <div className="lg:w-[40%] lg:mt-0 mt-10">
           <div>
             <StarIcon />
           </div>

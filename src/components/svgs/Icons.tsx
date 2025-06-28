@@ -682,3 +682,17 @@ export const EmailNewsletterIcon = () => (
     </defs>
   </svg>
 );
+export const Hamburger = () => (
+  <svg
+    width="45"
+    height="45"
+    viewBox="0 0 45 45"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="45" height="45" rx="22.5" fill="#EF2D57" />
+    <rect x="10" y="13" width="25" height="2" fill="white" />
+    <rect x="10" y="22" width="25" height="2" fill="white" />
+    <rect x="10" y="31" width="25" height="2" fill="white" />
+  </svg>
+);

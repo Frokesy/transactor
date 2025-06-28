@@ -3,12 +3,12 @@ import { AppStoreIcon, PlaystoreIcon } from "../svgs/Icons";
 const Cta = () => {
   return (
     <div className="w-[90vw] mx-auto mb-20">
-      <h2 className="text-[66px] font-bold text-center w-[80%] mb-20 mx-auto">
+      <h2 className="lg:text-[66px] text-[34px] font-bold text-center lg:w-[80%] mb-20 mx-auto">
         Ready for the Transactor Experience?
       </h2>
-      <div className="flex justify-between space-x-10">
-        <div className="bg-[#fff] pt-14 px-10 rounded-2xl w[50%]">
-          <h2 className="text-[40px] font-semibold text-[#000]">
+      <div className="flex lg:flex-row flex-col justify-between lg:space-x-10">
+        <div className="bg-[#fff] lg:pt-14 pt-6 lg:px-10 px-4 rounded-2xl lg:w[50%]">
+          <h2 className="lg:text-[40px] text-[24px] font-semibold text-[#000]">
             Download for iOS
           </h2>
           <p className="text-[16px] text-[#000]">
@@ -16,9 +16,9 @@ const Cta = () => {
             nulla integer in pellentesque tortor semper elementum. Felis.
           </p>
 
-          <button className="flex items-center space-x-3 my-10 bg-[#0328EE] px-10 py-4 rounded-full">
+          <button className="flex items-center space-x-3 lg:my-10 my-4 bg-[#0328EE] lg:px-10 px-6 py-4 rounded-full">
             <AppStoreIcon />
-            <span className="text-[18px] font-semibold uppercase">
+            <span className="lg:text-[18px] font-semibold uppercase">
               App Store
             </span>
           </button>
@@ -27,13 +27,13 @@ const Cta = () => {
             <img
               src="/assets/iPhones.png"
               alt="iOS Download"
-              className="w-[458px] h-[435px]"
+              className="lg:w-[458px] lg:h-[435px]"
             />
           </div>
         </div>
 
-        <div className="bg-[#fff] pt-14 px-10 rounded-2xl w[50%]">
-          <h2 className="text-[40px] font-semibold text-[#000]">
+        <div className="bg-[#fff] lg:pt-14 pt-6 lg:mt-0 mt-10 lg:px-10 px-4 rounded-2xl lg:w[50%]">
+          <h2 className="lg:text-[40px] text-[24px] font-semibold text-[#000]">
             Download for Android
           </h2>
           <p className="text-[16px] text-[#000]">
@@ -41,9 +41,9 @@ const Cta = () => {
             nulla integer in pellentesque tortor semper elementum. Felis.
           </p>
 
-          <button className="flex items-center space-x-3 my-10 bg-[#0328EE] px-10 py-4 rounded-full">
+          <button className="flex items-center space-x-3 lg:my-10 my-4 bg-[#0328EE] lg:px-10 px-6 py-4 rounded-full">
             <PlaystoreIcon />
-            <span className="text-[18px] font-semibold uppercase">
+            <span className="lg:text-[18px] font-semibold uppercase">
               Play Store
             </span>
           </button>
@@ -52,7 +52,7 @@ const Cta = () => {
             <img
               src="/assets/android.png"
               alt="Android Download"
-              className="w-[458px] h-[435px]"
+              className="lg:w-[458px] lg:h-[435px]"
             />
           </div>
         </div>

@@ -51,17 +51,19 @@ const FAQs = () => {
   return (
     <Container>
       {/* Background dot */}
-      <div className="absolute -left-50 top-20">
+      <div className="absolute lg:block hidden -left-50 top-20">
         <RedDotTwo />
       </div>
 
-      <h2 className="text-[66px] text-center w-[80%] mx-auto font-bold mt-[15vh]">
+      <h2 className="lg:text-[66px] text-[32px] text-center lg:w-[80%] mx-auto font-bold mt-[15vh]">
         Advice and answers from the Transactor Team
       </h2>
 
       {/* Search Bar */}
-      <div className="mt-20 bg-[#fff] text-[#808080] py-6 px-10 w-[90vw] space-x-10 items-center mx-auto rounded-2xl flex">
-        <SearchIcon />
+      <div className="mt-20 bg-[#fff] text-[#808080] lg:py-6 py-3 px-4 lg:px-10 w-[90vw] lg:space-x-10 items-center mx-auto rounded-2xl flex">
+        <div className="lg:scale-100 scale-50">
+          <SearchIcon />
+        </div>
         <input
           type="text"
           placeholder="Find an answer"
@@ -71,8 +73,8 @@ const FAQs = () => {
 
       {/* Categories */}
       <div className="mt-20 flex flex-col space-y-10 w-[90vw] mx-auto">
-        <h2 className="text-[48px] font-bold">Browse topics</h2>
-        <div className="flex flex-wrap gap-6 justify-between">
+        <h2 className="lg:text-[48px] text-[28px] font-bold">Browse topics</h2>
+        <div className="grid lg:grid-cols-4 grid-cols-2 gap-6 lg:justify-between">
           {[
             { icon: <TransferIcon />, title: "Transfer" },
             { icon: <ReferralsIcon />, title: "Referrals" },
@@ -81,21 +83,23 @@ const FAQs = () => {
           ].map((item, i) => (
             <div
               key={i}
-              className="w-[257px] h-[236px] flex flex-col border border-[#ccc] items-center justify-center space-y-3 rounded-md"
+              className="lg:w-[257px] h-[236px] flex flex-col border border-[#ccc] items-center justify-center space-y-3 rounded-md"
             >
               {item.icon}
-              <p className="text-[32px] font-medium">{item.title}</p>
+              <p className="lg:text-[32px] text-[24px] font-medium">
+                {item.title}
+              </p>
             </div>
           ))}
         </div>
       </div>
 
       {/* FAQs */}
-      <div className="mt-[20vh] w-[70vw] mx-auto">
-        <h2 className="text-[66px] font-semibold text-center">
+      <div className="lg:mt-[20vh] lg:w-[70vw] w-[90vw] mx-auto">
+        <h2 className="lg:text-[66px] text-[30px] mt-14 lg:mt-0 font-semibold text-center">
           Security & Transfers – Frequently Asked Questions
         </h2>
-        <div className="mt-20 flex flex-col space-y-6">
+        <div className="lg:mt-20 mt-10 flex flex-col space-y-6">
           {faqs.map((faq) => (
             <div
               key={faq.id}
@@ -103,11 +107,15 @@ const FAQs = () => {
               onClick={() => toggleFaq(faq.id)}
             >
               <div className="flex justify-between items-center">
-                <p className="text-[28px] font-semibold">{faq.question}</p>
+                <p className="lg:text-[28px] text-[18px] font-semibold">
+                  {faq.question}
+                </p>
                 {activeFaq === faq.id ? <MinusIcon /> : <PlusIcon />}
               </div>
               {activeFaq === faq.id && (
-                <p className="mt-4 text-[20px] text-[#606060]">{faq.answer}</p>
+                <p className="mt-4 lg:text-[20px] text-[#606060]">
+                  {faq.answer}
+                </p>
               )}
             </div>
           ))}

@@ -6,10 +6,10 @@ const BlogPost = () => {
   return (
     <Container>
       <div className="w-[90vw] mx-auto">
-        <h2 className="text-[66px] w-[70%] font-bold mt-[15vh]">
+        <h2 className="lg:text-[66px] text-[32px] lg:w-[70%] font-bold mt-14 lg:mt-[15vh]">
           How One Transfer Sparked a Bakery in Nairobi
         </h2>
-        <p className="text-[14px] w-[60%]">
+        <p className="text-[14px] lg:w-[60%]">
           When Daniel’s cousin in Kenya had a business idea but lacked startup
           cash, Daniel sent the first $700 through Transactor — and helped
           launch a thriving local bakery.
@@ -18,20 +18,20 @@ const BlogPost = () => {
         <img
           src="/assets/blog-img.png"
           alt="Blog Image"
-          className="h-[674px] mt-10 w-[100%]"
+          className="lg:h-[674px] mt-10 w-[100%]"
         />
 
-        <div className="w-[80%]">
-          <h2 className="text-[42px] w-[70%] font-bold mt-20">
+        <div className="lg:w-[80%]">
+          <h2 className="lg:text-[42px] text-[28px] lg:w-[70%] font-bold mt-10 lg:mt-20">
             Learn what you need to know before you invest in a virtual currency
           </h2>
-          <p className="text-[24px] mt-6">
+          <p className="lg:text-[24px] mt-6">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum.
           </p>
-          <p className="text-[24px] mt-10">
+          <p className="lg:text-[24px] mt-10">
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
             amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -40,16 +40,16 @@ const BlogPost = () => {
             consequat.
           </p>
 
-          <h2 className="text-[28px] w-[70%] font-bold mt-20">
+          <h2 className="text-[28px] lg:w-[70%] font-bold mt-20">
             How do I know how secure is my wallet?
           </h2>
-          <p className="text-[24px] mt-6">
+          <p className="lg:text-[24px] mt-6">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum.
           </p>
-          <p className="text-[24px] mt-10">
+          <p className="lg:text-[24px] mt-10">
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
             amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt

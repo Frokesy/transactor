@@ -19,15 +19,17 @@ const Blog = () => {
 
   return (
     <Container>
-      <h2 className="text-[66px] text-center w-[80%] mx-auto font-bold mt-[15vh]">
+      <h2 className="lg:text-[66px] text-[32px] text-center lg:w-[80%] w-[90%] mx-auto font-bold mt-14 lg:mt-[15vh]">
         Where every transfer tells a story - your story.
       </h2>
 
-      <div className="mt-[20vh] w-[90vw] mx-auto">
+      <div className="lg:mt-[20vh] mt-20 w-[90vw] mx-auto">
         {/* Header & Filter Buttons */}
         <div className="flex justify-between flex-col lg:flex-row mb-20 space-y-6 lg:space-y-0">
-          <h2 className="text-[42px] font-semibold">Latest Posts</h2>
-          <div className="flex flex-wrap gap-4">
+          <h2 className="lg:text-[42px] text-[28px] font-semibold">
+            Latest Posts
+          </h2>
+          <div className="flex flex-wrap gap-4 lg:text-[16px] text-[12px]">
             <button className="bg-[#EF2D57] py-4 px-6 rounded-full">All</button>
             <button className="bg-gray-800 py-4 px-6 rounded-full text-white">
               Transactions
