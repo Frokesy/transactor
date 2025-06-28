@@ -7,6 +7,7 @@ import Help from "./pages/help";
 import FAQs from "./pages/faqs";
 import Blog from "./pages/blog";
 import BlogPost from "./pages/blog/blogPost";
+import NotFound from "./pages/404";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -17,6 +18,7 @@ const App = () => {
     { path: "/faqs", element: <FAQs /> },
     { path: "/blog", element: <Blog /> },
     { path: "/blog/:id", element: <BlogPost /> },
+    { path: "*", element: <NotFound /> },
   ]);
 
   return (
