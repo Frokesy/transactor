@@ -50,7 +50,7 @@ const Blog = () => {
               <img
                 src={item.image}
                 alt="Blog"
-                className="w-full h-[215px] object-cover rounded-[24px]"
+                className="w-full h-[215px] object-cover"
               />
               <button className="bg-[#EF2D57] text-[18px] font-semibold py-2 px-4 rounded-full">
                 {item.tag}
