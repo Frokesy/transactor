@@ -11,9 +11,9 @@ const Header = () => {
     <>
       <div className="py-4 border-b-2 border-[#ccc] z-50 relative">
         <div className="w-[90vw] mx-auto flex justify-between items-center">
-          <h1 className="lg:text-[40px] text-[24px] font-semibold">
+          <NavLink to="/" className="lg:text-[40px] text-[24px] font-semibold">
             Transactor
-          </h1>
+          </NavLink>
 
           {/* Desktop Nav */}
           <div className="space-x-10 uppercase text-[14px] lg:flex hidden items-center">
@@ -51,7 +51,9 @@ const Header = () => {
             className="fixed top-0 right-0 h-full w-[80%] bg-gray-700 z-50 shadow-lg px-6 py-6"
           >
             <div className="flex justify-between items-center mb-8">
-              <h1 className="text-[24px] font-semibold">Transactor</h1>
+              <NavLink to="/" className="text-[24px] font-semibold">
+                Transactor
+              </NavLink>
               <button onClick={() => setIsDrawerOpen(false)}>
                 <X size={24} />
               </button>

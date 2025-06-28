@@ -2,7 +2,7 @@ import { FooterDotAttachment } from "../svgs/Icons";
 
 const Footer = () => {
   return (
-    <div className="lg:pb-[10vh] pb-10">
+    <div className="pb-10">
       <footer className="border-t-2 relative border-[#ccc] px-4 lg:py-[15vh] py-10">
         {/* background attachment */}
         <div className="absolute lg:block hidden -left-20 -top-[30vh]">
