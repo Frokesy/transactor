@@ -17,7 +17,7 @@ const Header = () => {
 
           {/* Desktop Nav */}
           <div className="space-x-10 uppercase text-[14px] lg:flex hidden items-center">
-            <span>Products</span>
+            <NavLink to="/blog">Blog</NavLink>
             <NavLink to="/wallet">Wallet</NavLink>
             <NavLink to="/about">Company</NavLink>
             <NavLink to="/help">Help</NavLink>
