@@ -70,7 +70,7 @@ const SectionTwo = () => {
             </div>
           </div>
 
-          <div className="lg:w-[40%] z-10">
+          <div className="lg:w-[40%] flex justify-end z-10">
             <img
               src="/assets/body-img-two-mobile.png"
               alt="Section Two Image"
