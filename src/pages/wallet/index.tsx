@@ -13,24 +13,31 @@ import {
 const Wallet = () => {
   return (
     <Container>
-      <h2 className="lg:text-[60px] text-[34px] text-center lg:w-[85%] mx-auto font-bold mt-14 lg:mt-[10vh]">
+      <h2 className="lg:text-[60px] text-[34px] text-center lg:w-[70%] w-[90%] mx-auto font-bold mt-14 lg:mt-[10vh]">
         Currency Conversion – Know Before You Send & Convert with Ease
       </h2>
-      <p className="lg:text-[26px] text-[20px] lg:w-[60%] mx-auto text-center my-10">
+      <p className="lg:text-[32px] text-[18px] lg:w-[50%] w-[90%] mx-auto text-center lg:my-20 my-10">
         Check real-time exchange rates from Australia to Africa. No surprises.
         No hidden fees.
       </p>
 
+      <div className="w-[90vw] mx-auto font-semibold mb-20">
+        <button className="bg-[#EF2D57] lg:hidden py-6 px-10 w-[100%] uppercase rounded-xl">
+          Download App
+        </button>
+      </div>
       <SectionOne />
       <SupportedCountries />
       <div className="w-[90vw] mx-auto border border-[#ccc] z-10 items-center rounded-2xl mt-20 lg:p-10 p-4 flex lg:flex-row flex-col-reverse justify-between">
         <div className="lg:w-[55%] z-10 lg:mt-0 mt-10">
-          <h2 className="lg:text-[60px] text-[32px] lg:text-start text-center font-bold">
-            Real-Time Rates.
-          </h2>
-          <h2 className="lg:text-[60px] text-[32px] lg:text-start text-center font-bold">
-            No Guesswork.
-          </h2>
+          <div className="leading-tight">
+            <h2 className="lg:text-[60px] text-[32px] lg:text-start text-center font-bold">
+              Real-Time Rates.
+            </h2>
+            <h2 className="lg:text-[60px] text-[32px] lg:text-start text-center font-bold">
+              No Guesswork.
+            </h2>
+          </div>
           <p className="lg:text-[24px] mt-10 lg:text-start text-center ">
             Unlike many traditional banks, we show you the exact rate you’ll get
             — with no hidden margins or surprise deductions. What you see is
@@ -73,9 +80,9 @@ const Wallet = () => {
         </div>
       </div>
 
-      <div className="lg:my-[8vh] my-10 w-[90vw] mx-auto text-center bg-[#fff] flex flex-col text-[#000] items-center justify-center space-y-6 rounded-2xl py-10">
+      <div className="lg:my-[5vh] my-20 w-[90vw] mx-auto text-center bg-[#fff] flex flex-col text-[#000] items-center justify-center space-y-6 rounded-2xl py-10">
         <RatesIcon />
-        <div>
+        <div className="leading-tight -mt-10">
           <h2 className="lg:text-[64px] text-[32px] font-bold">
             Real-Time Rates.
           </h2>
@@ -84,7 +91,7 @@ const Wallet = () => {
           </h2>
         </div>
 
-        <p className="lg:text-[30px] lg:w-[40%]">
+        <p className="lg:text-[32px] lg:w-[60%] w-[90%]">
           With Transactor, you can trust that your money — and your exchange
           rate — is protected every step of the way. Ready to send with
           confidence?

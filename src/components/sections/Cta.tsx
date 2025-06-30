@@ -2,16 +2,16 @@ import { AppStoreIcon, PlaystoreIcon } from "../svgs/Icons";
 
 const Cta = () => {
   return (
-    <div className="w-[90vw] mx-auto mb-20">
-      <h2 className="lg:text-[66px] text-[34px] leading-tight font-bold text-center lg:w-[80%] mb-20 mx-auto">
+    <div className="w-[90vw] mx-auto lg:pt-10 mb-20">
+      <h2 className="lg:text-[70px] text-[38px] leading-tight font-bold text-center lg:w-[70%] mb-10 mx-auto">
         Ready for the Transactor Experience?
       </h2>
       <div className="flex lg:flex-row flex-col justify-between lg:space-x-10">
-        <div className="bg-[#fff] lg:pt-14 pt-6 lg:px-10 px-4 rounded-2xl lg:w[50%]">
-          <h2 className="lg:text-[34px] text-[24px] font-semibold text-[#000]">
+        <div className="bg-[#fff] lg:pt-14 pt-6 lg:px-10 px-4 rounded-2xl flex flex-col justify-center items-center lg:w[50%]">
+          <h2 className="lg:text-[48px] text-center text-[24px] font-semibold text-[#000]">
             Download for iOS
           </h2>
-          <p className="lg:text-[16px] text-[14px] text-[#000]">
+          <p className="lg:text-[18px] text-center lg:w-[70%] mx-auto text-[14px] text-[#000]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed
             nulla integer in pellentesque tortor semper elementum. Felis.
           </p>
@@ -32,11 +32,11 @@ const Cta = () => {
           </div>
         </div>
 
-        <div className="bg-[#fff] lg:pt-14 pt-6 lg:mt-0 mt-10 lg:px-10 px-4 rounded-2xl lg:w[50%]">
-          <h2 className="lg:text-[34px] text-[24px] font-semibold text-[#000]">
+        <div className="bg-[#fff] mt-10 lg:mt-0 lg:pt-14 pt-6 lg:px-10 px-4 rounded-2xl flex flex-col justify-center items-center lg:w[50%]">
+          <h2 className="lg:text-[48px] text-center text-[24px] font-semibold text-[#000]">
             Download for Android
           </h2>
-          <p className="lg:text-[16px] text-[14px] text-[#000]">
+          <p className="lg:text-[18px] text-center lg:w-[70%] mx-auto text-[14px] text-[#000]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed
             nulla integer in pellentesque tortor semper elementum. Felis.
           </p>

@@ -19,7 +19,7 @@ const Hero = () => {
             you in mind.
           </p>
 
-          <div className="flex lg:flex-row flex-col lg:space-x-10 font-semibold mt-10 lg:mt-20">
+          <div className="flex lg:flex-row flex-col lg:space-x-10 font-semibold lg:mt-20">
             <button className="bg-[#EF2D57] lg:py-4 py-6 px-10 uppercase rounded-xl">
               Download App
             </button>

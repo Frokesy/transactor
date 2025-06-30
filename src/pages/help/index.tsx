@@ -5,11 +5,11 @@ import { EmailIcon } from "../../components/svgs/Icons";
 const Help = () => {
   return (
     <Container>
-      <div className="w-[90vw] mx-auto border border-[#ccc] z-10 items-center rounded-2xl lg:mt-20 mt-10 lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
+      <div className="w-[90vw] mx-auto lg:border border-[#ccc] z-10 items-center rounded-2xl mt-20 lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
         <div className="lg:w-[55%] z-10">
-          <h2 className="lg:text-[60px] text-[32px] leading-tight font-bold">
+          <h2 className="lg:text-[60px] text-[38px] lg:text-start text-center leading-tight lg:font-light font-bold">
             {" "}
-            <span className="font-bold">We're Here to Help</span> - Anytime,
+            <span className="font-bold">We're Here to Help -</span> Anytime,
             Anywhere.
           </h2>
           <p className="lg:text-[24px] mt-6 lg:mt-10">
@@ -106,7 +106,7 @@ const Help = () => {
               rows={10}
             />
           </div>
-          <button className="bg-[#EF2D57] py-5 px-10 uppercase rounded-xl font-semibold">
+          <button className="bg-[#EF2D57] py-5 px-10 w-[100%] lg:w-auto uppercase rounded-xl font-semibold">
             Send Message
           </button>
         </div>

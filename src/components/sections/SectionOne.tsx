@@ -20,13 +20,13 @@ const SectionOne = () => {
   const toCurrency = swap ? "AUD" : "NGN";
 
   return (
-    <div className="relative border border-[#ccc] rounded-2xl w-[90vw] mx-auto mt-10">
+    <div className="relative border border-[#ccc] rounded-2xl w-[90vw] mx-auto lg:mt-10">
       <div className="absolute lg:block hidden left-0 top-0">
         <RedDot />
       </div>
 
-      <div className="lg:p-14 p-4 flex lg:flex-row flex-col justify-between items-center">
-        <div className="lg:w-[45%] z-10">
+      <div className="lg:p-30 p-4 flex lg:flex-row flex-col justify-between">
+        <div className="lg:w-[45%] z-10 lg:mt-10">
           <div className="lg:leading-30">
             <h1 className="lg:text-[96px] text-[38px] text-center lg:text-start font-semibold">
               No Fees.
@@ -35,7 +35,7 @@ const SectionOne = () => {
               One World.
             </h2>
           </div>
-          <p className="lg:text-[24px] text-center lg:text-start font-medium lg:mt-10 mt-6">
+          <p className="lg:text-[24px] lg:w-[80%] text-center lg:text-start font-medium lg:mt-20 mt-3">
             Whether you're supporting your family, investing in a brighter
             future, or just sending love across the miles — you deserve a
             platform that cares as much as you do.

@@ -53,16 +53,16 @@ const SectionThree = () => {
 
   return (
     <div ref={ref} className="w-[90vw] mx-auto overflow-hidden mb-[8vh]">
-      <h2 className="text-[32px] lg:text-[60px] font-bold leading-tight lg:leading-[1.1]">
+      <h2 className="text-[34px] lg:text-[90px] w-[80%] font-bold leading-tight lg:leading-[1.1]">
         Real People. Real Transfers. Real Impact.
       </h2>
 
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mt-4 space-y-4 lg:space-y-0">
-        <p className="text-[18px] lg:text-[24px] lg:w-[60%]">
+        <p className="text-[18px] lg:text-[32px] lg:w-[60%]">
           Join thousands of Australians who trust Transactor to send money home
           — safely, quickly, and with heart.
         </p>
-        <div className="flex items-center space-x-6 ">
+        <div className="flex items-center space-x-6 lg:my-0 my-4">
           <button onClick={scrollLeft}>
             <CaretLeft />
           </button>
@@ -74,7 +74,7 @@ const SectionThree = () => {
 
       <div
         ref={scrollRef}
-        className="flex overflow-x-auto space-x-6 mt-10 scroll-smooth no-scrollbar"
+        className="flex overflow-x-auto space-x-6 lg:mt-20 mt-6 scroll-smooth no-scrollbar"
       >
         {visibleTestimonials.map((item, idx) => (
           <div

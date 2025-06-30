@@ -21,7 +21,7 @@ const Blog = () => {
 
   return (
     <Container>
-      <h2 className="lg:text-[66px] text-[32px] leading-tight text-center lg:w-[80%] w-[90%] mx-auto font-bold mt-14 lg:mt-[10vh]">
+      <h2 className="lg:text-[66px] text-[32px] leading-tight text-center lg:w-[70%] w-[90%] mx-auto font-bold mt-14 lg:mt-[10vh]">
         Where every transfer tells a story - your story.
       </h2>
 
@@ -31,14 +31,14 @@ const Blog = () => {
             Latest Posts
           </h2>
           <div className="flex flex-wrap gap-4 lg:text-[16px] text-[12px]">
-            <button className="bg-[#EF2D57] py-4 px-6 rounded-full">All</button>
-            <button className="bg-gray-800 py-4 px-6 rounded-full text-white">
+            <button className="bg-[#EF2D57] py-3 px-6 rounded-3xl">All</button>
+            <button className="bg-gray-800 py-3 px-6 rounded-full text-white">
               Transactions
             </button>
-            <button className="bg-gray-800 py-4 px-6 rounded-full text-white">
+            <button className="bg-gray-800 py-3 px-6 rounded-full text-white">
               Beneficiaries
             </button>
-            <button className="bg-gray-800 py-4 px-6 rounded-full text-white">
+            <button className="bg-gray-800 py-3 px-6 rounded-full text-white">
               Tutorials
             </button>
           </div>

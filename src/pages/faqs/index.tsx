@@ -55,19 +55,19 @@ const FAQs = () => {
         <RedDotTwo />
       </div>
 
-      <h2 className="lg:text-[60px] text-[32px] leading-tight text-center lg:w-[80%] mx-auto font-bold mt-[10vh]">
+      <h2 className="lg:text-[66px] text-[32px] leading-tight text-center lg:w-[60%] mx-auto font-bold mt-[15vh] mb-20">
         Advice and answers from the Transactor Team
       </h2>
 
       {/* Search Bar */}
-      <div className="mt-10 bg-[#fff] text-[#808080] lg:py-6 py-3 px-4 lg:px-10 w-[90vw] lg:space-x-10 items-center mx-auto rounded-2xl flex">
+      <div className="mt-10 bg-[#fff] text-[#808080] w-[90vw] lg:space-x-10 px-4 lg:px-10 items-center mx-auto rounded-2xl flex">
         <div className="lg:scale-100 scale-50">
           <SearchIcon />
         </div>
         <input
           type="text"
           placeholder="Find an answer"
-          className="border-none outline-none w-full placeholder:text-[24px] text-[24px]"
+          className="border-none outline-none w-full placeholder:lg:text-[48px] placeholder:text-[24px] lg:py-6 px-4 lg:px-10 py-3 placeholder:tracking-widest lg:text-[42px] text-[24px]"
         />
       </div>
 
@@ -96,7 +96,7 @@ const FAQs = () => {
 
       {/* FAQs */}
       <div className="lg:mt-[10vh] lg:w-[70vw] w-[90vw] mx-auto">
-        <h2 className="lg:text-[60px] text-[30px] leading-tight mt-14 lg:mt-0 font-semibold text-center">
+        <h2 className="lg:text-[66px] text-[30px] leading-tight mt-14 lg:mt-0 font-semibold text-center">
           Security & Transfers – Frequently Asked Questions
         </h2>
         <div className="lg:mt-20 mt-10 flex flex-col space-y-6">

@@ -5,7 +5,7 @@ import { RedDotTwo } from "../../components/svgs/Icons";
 const Company = () => {
   return (
     <Container>
-      <h2 className="lg:text-[66px] text-[32px] leading-tight z-20 text-center lg:w-[80%] mx-auto font-bold mt-14 lg:mt-[10vh]">
+      <h2 className="lg:text-[66px] text-[38px] leading-tight z-20 text-center lg:w-[50%] w-[80%] mx-auto font-light mt-14 lg:my-[15vh]">
         Welcome to Transactor.{" "}
         <span className="font-bold">
           Money moves, but it's love that truly travels.
@@ -17,9 +17,9 @@ const Company = () => {
           <RedDotTwo />
         </div>
 
-        <div className="w-[90vw] mt-10 lg:mt-[10vh] mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
-          <div className="lg:w-[55%]">
-            <h2 className="lg:text-[60px] leading-tight text-[32px]">
+        <div className="w-[90vw] mt-10 lg:mt-[10vh] mx-auto border border-[#ccc] items-center rounded-2xl lg:p-14 p-4 flex lg:flex-row flex-col-reverse justify-between">
+          <div className="lg:w-[55%] mt-10 text-center lg:text-start lg:mt-0">
+            <h2 className="lg:text-[66px] font-bold leading-tight text-[32px]">
               Powered by Purpose, Driven by Connection
             </h2>
             <p className="lg:text-[24px] lg:mt-10 mt-6">
@@ -56,13 +56,13 @@ const Company = () => {
           <RedDotTwo />
         </div>
 
-        <div className="w-[90vw] lg:mt-[10vh] mt-10 mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
-          <div className="lg:w-[55%] z-10">
-            <h2 className="lg:text-[60px] text-[32px] leading-tight">
-              It's about building bridges between continents,{" "}
+        <div className="w-[90vw] lg:mt-[10vh] mt-10 mx-auto border border-[#ccc] rounded-2xl lg:p-14 p-4 flex lg:flex-row flex-col justify-between">
+          <div className="lg:w-[50%] z-10">
+            <h2 className="lg:text-[66px] text-[32px] lg:font-light font-bold lg:text-start text-center leading-tight">
+              It's about building bridges between continents,
               <span className="font-bold">one transaction at a time</span>
             </h2>
-            <p className="lg:text-[24px] lg:mt-10 mt-6 ">
+            <p className="lg:text-[24px] lg:mt-20 mt-6 ">
               Whether you're supporting your family, investing in a brighter
               future, or just sending love across the miles — you deserve a
               platform that cares as much as you do.
@@ -78,7 +78,7 @@ const Company = () => {
             <img
               src="/assets/about-img-three.png"
               alt="Image"
-              className="right-0 object-cover absolute lg:block hidden bottom-0 h-[377px] w-[301px]"
+              className="right-0 lg:object-cover absolute bottom-0 lg:h-[377px] h-[200px] lg:w-[301px]"
             />
           </div>
         </div>
@@ -92,7 +92,7 @@ const Company = () => {
 
         <div className="w-[90vw] lg:mt-[10vh] mt-10 mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
           <div className="lg:w-[55%] z-10">
-            <h2 className="lg:text-[60px] text-[32px] leading-tight">
+            <h2 className="lg:text-[66px] font-semibold text-[32px] leading-tight">
               Welcome to Transactor. Where every transfer tells a story - your
               story.
             </h2>
@@ -157,7 +157,7 @@ const Company = () => {
           <img
             src="/assets/about-img-six.png"
             alt="Image"
-            className="right-0 object-cover lg:block hidden absolute bottom-14 h-[377px] w-[301px]"
+            className="right-0 object-cover absolute bottom-14 lg:h-[377px] h-[250px] lg:w-[301px]"
           />
         </div>
       </div>
