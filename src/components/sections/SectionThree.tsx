@@ -1,8 +1,11 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { CaretLeft, CaretRight, MiniNig } from "../svgs/Icons";
+import { useInView } from "react-intersection-observer";
 
 const SectionThree = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [showAll, setShowAll] = useState(false);
+  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
   const scrollLeft = () => {
     scrollRef.current?.scrollBy({
@@ -43,8 +46,13 @@ const SectionThree = () => {
     },
   ];
 
+  // Show the rest once the section comes into view
+  if (inView && !showAll) setShowAll(true);
+
+  const visibleTestimonials = showAll ? testimonials : [testimonials[0]];
+
   return (
-    <div className="w-[90vw] mx-auto overflow-hidden mb-[8vh]">
+    <div ref={ref} className="w-[90vw] mx-auto overflow-hidden mb-[8vh]">
       <h2 className="text-[32px] lg:text-[80px] font-bold leading-tight lg:leading-[1.1]">
         Real People. Real Transfers. Real Impact.
       </h2>
@@ -68,7 +76,7 @@ const SectionThree = () => {
         ref={scrollRef}
         className="flex overflow-x-auto space-x-6 mt-10 scroll-smooth no-scrollbar"
       >
-        {testimonials.map((item, idx) => (
+        {visibleTestimonials.map((item, idx) => (
           <div
             key={idx}
             className="min-w-[90vw] lg:min-w-[1049px] h-[500px] lg:h-[871px] rounded-xl relative flex-shrink-0 overflow-hidden"
@@ -79,7 +87,6 @@ const SectionThree = () => {
               className="absolute inset-0 w-full h-full object-cover"
               loading="lazy"
             />
-
             <div className="absolute flex flex-col justify-end left-0 right-0 bg-black/60 text-white h-full p-6 lg:p-10">
               <h2 className="text-[20px] lg:text-[32px] font-semibold">
                 {item.quote}
