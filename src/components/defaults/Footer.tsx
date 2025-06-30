@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="absolute lg:block hidden -left-20 -top-[30vh]">
           <FooterDotAttachment />
         </div>
-        <h2 className="lg:text-[54px] text-[30px] font-semibold text-center">
+        <h2 className="lg:text-[54px] text-[30px] leading-tight font-semibold text-center">
           A smarter, faster, and fairer <br /> way to send money from Australia
           to Africa.
         </h2>

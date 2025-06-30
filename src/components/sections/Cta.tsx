@@ -3,7 +3,7 @@ import { AppStoreIcon, PlaystoreIcon } from "../svgs/Icons";
 const Cta = () => {
   return (
     <div className="w-[90vw] mx-auto mb-20">
-      <h2 className="lg:text-[66px] text-[34px] font-bold text-center lg:w-[80%] mb-20 mx-auto">
+      <h2 className="lg:text-[66px] text-[34px] leading-tight font-bold text-center lg:w-[80%] mb-20 mx-auto">
         Ready for the Transactor Experience?
       </h2>
       <div className="flex lg:flex-row flex-col justify-between lg:space-x-10">

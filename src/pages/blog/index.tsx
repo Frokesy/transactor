@@ -21,7 +21,7 @@ const Blog = () => {
 
   return (
     <Container>
-      <h2 className="lg:text-[66px] text-[32px] text-center lg:w-[80%] w-[90%] mx-auto font-bold mt-14 lg:mt-[10vh]">
+      <h2 className="lg:text-[66px] text-[32px] leading-tight text-center lg:w-[80%] w-[90%] mx-auto font-bold mt-14 lg:mt-[10vh]">
         Where every transfer tells a story - your story.
       </h2>
 

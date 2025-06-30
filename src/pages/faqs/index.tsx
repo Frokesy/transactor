@@ -55,7 +55,7 @@ const FAQs = () => {
         <RedDotTwo />
       </div>
 
-      <h2 className="lg:text-[66px] text-[32px] text-center lg:w-[80%] mx-auto font-bold mt-[10vh]">
+      <h2 className="lg:text-[66px] text-[32px] leading-tight text-center lg:w-[80%] mx-auto font-bold mt-[10vh]">
         Advice and answers from the Transactor Team
       </h2>
 
@@ -96,7 +96,7 @@ const FAQs = () => {
 
       {/* FAQs */}
       <div className="lg:mt-[10vh] lg:w-[70vw] w-[90vw] mx-auto">
-        <h2 className="lg:text-[66px] text-[30px] mt-14 lg:mt-0 font-semibold text-center">
+        <h2 className="lg:text-[66px] text-[30px] leading-tight mt-14 lg:mt-0 font-semibold text-center">
           Security & Transfers – Frequently Asked Questions
         </h2>
         <div className="lg:mt-20 mt-10 flex flex-col space-y-6">

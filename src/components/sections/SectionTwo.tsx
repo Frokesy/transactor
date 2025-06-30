@@ -11,7 +11,7 @@ const SectionTwo = () => {
     <div className="mt-[10vh] pb-30 space-y-10 lg:space-y-30">
       <div className="w-[90vw] mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
         <div className="lg:w-[55%]">
-          <h2 className="lg:text-[64px] text-[34px]">
+          <h2 className="lg:text-[64px] leading-tight mb-6 text-[34px]">
             At Transactor,{" "}
             <span className="font-bold">
               we see the story behind every dollar.
@@ -44,7 +44,7 @@ const SectionTwo = () => {
         </div>
         <div className="w-[90vw] mx-auto border border-[#ccc] z-10 items-center rounded-2xl lg:px-10 p-4 flex lg:flex-row flex-col justify-between">
           <div className="lg:w-[55%] z-10">
-            <h2 className="lg:text-[64px] text-[32px] font-semibold">
+            <h2 className="lg:text-[64px] text-[32px] leading-tight font-semibold">
               Our Easy Steps For Registration
             </h2>
             <p className="lg:text-[24px] lg:mt-10 mt-4">No hidden charges</p>
@@ -91,7 +91,7 @@ const SectionTwo = () => {
 
       <div className="w-[90vw] mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
         <div className="lg:w-[55%]">
-          <h2 className="lg:text-[64px] text-[34px] lg:text-start text-center lg:font-normal font-bold">
+          <h2 className="lg:text-[64px] leading-tight text-[34px] lg:text-start text-center lg:font-normal font-bold">
             Your Money. Safe. Always.
           </h2>
           <div className="lg:w-[40%] h-[270px] block lg:hidden lg:mt-0 mt-10">

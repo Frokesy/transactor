@@ -27,12 +27,14 @@ const SectionOne = () => {
 
       <div className="lg:p-14 p-4 flex lg:flex-row flex-col justify-between items-center">
         <div className="lg:w-[45%] z-10">
-          <h1 className="lg:text-[96px] text-[38px] text-center lg:text-start font-semibold">
-            No Fees.
-          </h1>
-          <h2 className="lg:text-[96px] text-[38px] text-center lg:text-start font-semibold">
-            One World.
-          </h2>
+          <div className="leading-30">
+            <h1 className="lg:text-[96px] text-[38px] text-center lg:text-start font-semibold">
+              No Fees.
+            </h1>
+            <h2 className="lg:text-[96px] text-[38px] text-center lg:text-start font-semibold">
+              One World.
+            </h2>
+          </div>
           <p className="lg:text-[24px] text-center lg:text-start font-medium lg:mt-10 mt-6">
             Whether you're supporting your family, investing in a brighter
             future, or just sending love across the miles — you deserve a

@@ -7,7 +7,7 @@ const Help = () => {
     <Container>
       <div className="w-[90vw] mx-auto border border-[#ccc] z-10 items-center rounded-2xl lg:mt-20 mt-10 lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
         <div className="lg:w-[55%] z-10">
-          <h2 className="lg:text-[64px] text-[32px] font-bold">
+          <h2 className="lg:text-[64px] text-[32px] leading-tight font-bold">
             {" "}
             <span className="font-bold">We're Here to Help</span> - Anytime,
             Anywhere.

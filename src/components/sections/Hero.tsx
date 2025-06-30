@@ -9,9 +9,10 @@ const Hero = () => {
       </div>
       <div className="flex lg:flex-row flex-col w-[90vw] mx-auto lg:pt-[10vh] pt-14">
         <div className="flex flex-col space-y-6 z-10 lg:w-[45%]">
-          <h2 className="lg:text-[66px] text-[38px] text-center lg:text-start font-semibold">
+          <h2 className="lg:text-[66px] text-[38px] leading-tight text-center lg:text-start font-semibold">
             From Australia with Love – The Transactor Story
           </h2>
+
           <p className="lg:text-[24px] font-medium text-center lg:text-start">
             Born out of a simple mission —to make money transfers from Australia
             to Africa faster, safer, and more human— we built Transactor with

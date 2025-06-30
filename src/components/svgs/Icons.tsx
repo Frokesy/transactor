@@ -567,7 +567,7 @@ export const PlusIcon = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_332_330)">
+    <g clipPath="url(#clip0_332_330)">
       <rect x="13" y="0.5" width="2" height="27" rx="1" fill="white" />
       <rect y="13.5" width="27" height="2" rx="1" fill="white" />
     </g>

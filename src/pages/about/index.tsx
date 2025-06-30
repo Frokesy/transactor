@@ -5,7 +5,7 @@ import { RedDotTwo } from "../../components/svgs/Icons";
 const Company = () => {
   return (
     <Container>
-      <h2 className="lg:text-[66px] text-[32px] text-center lg:w-[80%] mx-auto font-bold mt-14 lg:mt-[10vh]">
+      <h2 className="lg:text-[66px] text-[32px] leading-tight z-20 text-center lg:w-[80%] mx-auto font-bold mt-14 lg:mt-[10vh]">
         Welcome to Transactor.{" "}
         <span className="font-bold">
           Money moves, but it's love that truly travels.
@@ -19,7 +19,7 @@ const Company = () => {
 
         <div className="w-[90vw] mt-10 lg:mt-[10vh] mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
           <div className="lg:w-[55%]">
-            <h2 className="lg:text-[64px] text-[32px]">
+            <h2 className="lg:text-[64px] leading-tight text-[32px]">
               Powered by Purpose, Driven by Connection
             </h2>
             <p className="lg:text-[24px] lg:mt-10 mt-6">
@@ -58,7 +58,7 @@ const Company = () => {
 
         <div className="w-[90vw] lg:mt-[10vh] mt-10 mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
           <div className="lg:w-[55%] z-10">
-            <h2 className="lg:text-[64px] text-[32px]">
+            <h2 className="lg:text-[64px] text-[32px] leading-tight">
               It's about building bridges between continents,{" "}
               <span className="font-bold">one transaction at a time</span>
             </h2>
@@ -92,7 +92,7 @@ const Company = () => {
 
         <div className="w-[90vw] lg:mt-[10vh] mt-10 mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
           <div className="lg:w-[55%] z-10">
-            <h2 className="lg:text-[64px] text-[32px]">
+            <h2 className="lg:text-[64px] text-[32px] leading-tight">
               Welcome to Transactor. Where every transfer tells a story - your
               story.
             </h2>

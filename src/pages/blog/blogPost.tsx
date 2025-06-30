@@ -6,10 +6,10 @@ const BlogPost = () => {
   return (
     <Container>
       <div className="w-[90vw] mx-auto">
-        <h2 className="lg:text-[66px] text-[32px] lg:w-[70%] font-bold mt-14 lg:mt-[10vh]">
+        <h2 className="lg:text-[66px] text-[32px] leading-tight lg:w-[70%] font-bold mt-14 lg:mt-[10vh]">
           How One Transfer Sparked a Bakery in Nairobi
         </h2>
-        <p className="text-[14px] lg:w-[60%]">
+        <p className="text-[20px] lg:w-[80%]">
           When Daniel’s cousin in Kenya had a business idea but lacked startup
           cash, Daniel sent the first $700 through Transactor — and helped
           launch a thriving local bakery.

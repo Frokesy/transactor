@@ -25,21 +25,21 @@ const SectionThree = () => {
       about delays or high fees. With Transactor, she gets it in minutes —
       and I always get notified. It’s fast, safe, and reliable.`,
       author: "Emeka O., Sydney",
-      img: "/assets/body-img-four.png",
+      img: "/assets/body-img-four.webp",
     },
     {
       quote: "“It’s like sending love instantly.”",
       text: `My sister needed emergency medical help back in Lagos. I used Transactor
       and within minutes, the funds were there. That speed matters.`,
       author: "Ada M., Melbourne",
-      img: "/assets/body-img-four.png",
+      img: "/assets/body-img-four.webp",
     },
     {
       quote: "“I never worry about exchange rates again.”",
       text: `The rates are clear, the fees are low, and the service is just smooth.
       Transactor is the best money transfer tool I’ve ever used.`,
       author: "Chuka N., Brisbane",
-      img: "/assets/body-img-four.png",
+      img: "/assets/body-img-four.webp",
     },
   ];
 
@@ -71,9 +71,15 @@ const SectionThree = () => {
         {testimonials.map((item, idx) => (
           <div
             key={idx}
-            className="min-w-[90vw] lg:min-w-[1049px] h-[500px] lg:h-[871px] rounded-xl bg-cover bg-center relative flex-shrink-0"
-            style={{ backgroundImage: `url(${item.img})` }}
+            className="min-w-[90vw] lg:min-w-[1049px] h-[500px] lg:h-[871px] rounded-xl relative flex-shrink-0 overflow-hidden"
           >
+            <img
+              src={item.img}
+              alt={`Testimonial from ${item.author}`}
+              className="absolute inset-0 w-full h-full object-cover"
+              loading="lazy"
+            />
+
             <div className="absolute flex flex-col justify-end left-0 right-0 bg-black/60 text-white h-full p-6 lg:p-10">
               <h2 className="text-[20px] lg:text-[32px] font-semibold">
                 {item.quote}
