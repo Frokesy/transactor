@@ -7,12 +7,12 @@ const Help = () => {
     <Container>
       <div className="w-[90vw] mx-auto border border-[#ccc] z-10 items-center rounded-2xl lg:mt-20 mt-10 lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
         <div className="lg:w-[55%] z-10">
-          <h2 className="lg:text-[64px] text-[32px] leading-tight font-bold">
+          <h2 className="lg:text-[60px] text-[32px] leading-tight font-bold">
             {" "}
             <span className="font-bold">We're Here to Help</span> - Anytime,
             Anywhere.
           </h2>
-          <p className="lg:text-[24px] mt-6 lg:mt-20">
+          <p className="lg:text-[24px] mt-6 lg:mt-10">
             At Transactor, we know that sending money home is more than just a
             transaction — it’s a lifeline. That’s why our support team is always
             ready to assist you with fast, friendly, and secure service. <br />{" "}
@@ -20,7 +20,7 @@ const Help = () => {
             using the app, we’d love to hear from you.
           </p>
 
-          <div className="space-y-6 mt-10 lg:mt-20">
+          <div className="space-y-6 mt-10 lg:mt-10">
             <div className="flex items-center space-x-3">
               <EmailIcon />
               <p className="text-[18px]">contact@example.com</p>

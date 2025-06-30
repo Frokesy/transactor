@@ -21,6 +21,7 @@ const Header = () => {
             <NavLink to="/wallet">Wallet</NavLink>
             <NavLink to="/about">Company</NavLink>
             <NavLink to="/help">Help</NavLink>
+            <NavLink to="/faqs">FAQs</NavLink>
           </div>
 
           <div className="lg:flex hidden items-center space-x-6 uppercase text-[16px] font-semibold">
@@ -59,8 +60,10 @@ const Header = () => {
               </button>
             </div>
 
-            <div className="flex flex-col space-y-6 text-[16px] uppercase font-medium">
-              <span>Products</span>
+            <div className="flex flex-col space-y-6 text-[15px] uppercase font-medium">
+              <NavLink to="/blog" onClick={() => setIsDrawerOpen(false)}>
+                Blog
+              </NavLink>
               <NavLink to="/wallet" onClick={() => setIsDrawerOpen(false)}>
                 Wallet
               </NavLink>
@@ -69,6 +72,9 @@ const Header = () => {
               </NavLink>
               <NavLink to="/help" onClick={() => setIsDrawerOpen(false)}>
                 Help
+              </NavLink>
+              <NavLink to="/faqs" onClick={() => setIsDrawerOpen(false)}>
+                FAQs
               </NavLink>
             </div>
 

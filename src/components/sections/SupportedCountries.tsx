@@ -2,7 +2,7 @@ const SupportedCountries = () => {
   return (
     <>
       <div className="flex justify-center items-center lg:mt-[10vh] mt-10">
-        <h2 className="text-[#fff] lg:text-[60px] text-[20px] font-semibold text-center">
+        <h2 className="text-[#fff] lg:text-[54px] text-[20px] font-semibold text-center">
           Supported Countries
         </h2>
       </div>

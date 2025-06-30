@@ -19,7 +19,7 @@ const Company = () => {
 
         <div className="w-[90vw] mt-10 lg:mt-[10vh] mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
           <div className="lg:w-[55%]">
-            <h2 className="lg:text-[64px] leading-tight text-[32px]">
+            <h2 className="lg:text-[60px] leading-tight text-[32px]">
               Powered by Purpose, Driven by Connection
             </h2>
             <p className="lg:text-[24px] lg:mt-10 mt-6">
@@ -58,7 +58,7 @@ const Company = () => {
 
         <div className="w-[90vw] lg:mt-[10vh] mt-10 mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
           <div className="lg:w-[55%] z-10">
-            <h2 className="lg:text-[64px] text-[32px] leading-tight">
+            <h2 className="lg:text-[60px] text-[32px] leading-tight">
               It's about building bridges between continents,{" "}
               <span className="font-bold">one transaction at a time</span>
             </h2>
@@ -92,7 +92,7 @@ const Company = () => {
 
         <div className="w-[90vw] lg:mt-[10vh] mt-10 mx-auto border border-[#ccc] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
           <div className="lg:w-[55%] z-10">
-            <h2 className="lg:text-[64px] text-[32px] leading-tight">
+            <h2 className="lg:text-[60px] text-[32px] leading-tight">
               Welcome to Transactor. Where every transfer tells a story - your
               story.
             </h2>
@@ -123,7 +123,7 @@ const Company = () => {
       <div className="w-[90vw] lg:mt-[10vh] mt-10 lg:mb-20 mb-10 mx-auto bg-[#fff] text-[#333] items-center rounded-2xl lg:p-10 p-4 flex lg:flex-row flex-col justify-between">
         <div className="lg:w-[55%] z-10">
           <div className="space-y-4">
-            <h2 className="lg:text-[42px] text-[28px] font-semibold">
+            <h2 className="lg:text-[38px] text-[28px] font-semibold">
               Our mission
             </h2>
             <p className="lg:text-[24px] lg:mt-4">
@@ -133,7 +133,7 @@ const Company = () => {
           </div>
 
           <div className="space-y-4">
-            <h2 className="lg:text-[42px] text-[28px] font-semibold mt-10">
+            <h2 className="lg:text-[38px] text-[28px] font-semibold mt-10">
               Our vision
             </h2>
             <p className="lg:text-[24px] lg:mt-4">

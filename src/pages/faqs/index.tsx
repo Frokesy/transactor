@@ -55,12 +55,12 @@ const FAQs = () => {
         <RedDotTwo />
       </div>
 
-      <h2 className="lg:text-[66px] text-[32px] leading-tight text-center lg:w-[80%] mx-auto font-bold mt-[10vh]">
+      <h2 className="lg:text-[60px] text-[32px] leading-tight text-center lg:w-[80%] mx-auto font-bold mt-[10vh]">
         Advice and answers from the Transactor Team
       </h2>
 
       {/* Search Bar */}
-      <div className="mt-20 bg-[#fff] text-[#808080] lg:py-6 py-3 px-4 lg:px-10 w-[90vw] lg:space-x-10 items-center mx-auto rounded-2xl flex">
+      <div className="mt-10 bg-[#fff] text-[#808080] lg:py-6 py-3 px-4 lg:px-10 w-[90vw] lg:space-x-10 items-center mx-auto rounded-2xl flex">
         <div className="lg:scale-100 scale-50">
           <SearchIcon />
         </div>
@@ -72,8 +72,8 @@ const FAQs = () => {
       </div>
 
       {/* Categories */}
-      <div className="mt-20 flex flex-col space-y-10 w-[90vw] mx-auto">
-        <h2 className="lg:text-[48px] text-[28px] font-bold">Browse topics</h2>
+      <div className="mt-10 flex flex-col space-y-10 w-[90vw] mx-auto">
+        <h2 className="lg:text-[40px] text-[24px] font-bold">Browse topics</h2>
         <div className="grid lg:grid-cols-4 grid-cols-2 gap-6 lg:justify-between">
           {[
             { icon: <TransferIcon />, title: "Transfer" },
@@ -86,7 +86,7 @@ const FAQs = () => {
               className="lg:w-[257px] h-[236px] flex flex-col border border-[#ccc] items-center justify-center space-y-3 rounded-md"
             >
               {item.icon}
-              <p className="lg:text-[32px] text-[24px] font-medium">
+              <p className="lg:text-[24px] text-[24px] font-medium">
                 {item.title}
               </p>
             </div>
@@ -96,7 +96,7 @@ const FAQs = () => {
 
       {/* FAQs */}
       <div className="lg:mt-[10vh] lg:w-[70vw] w-[90vw] mx-auto">
-        <h2 className="lg:text-[66px] text-[30px] leading-tight mt-14 lg:mt-0 font-semibold text-center">
+        <h2 className="lg:text-[60px] text-[30px] leading-tight mt-14 lg:mt-0 font-semibold text-center">
           Security & Transfers – Frequently Asked Questions
         </h2>
         <div className="lg:mt-20 mt-10 flex flex-col space-y-6">
@@ -107,13 +107,13 @@ const FAQs = () => {
               onClick={() => toggleFaq(faq.id)}
             >
               <div className="flex justify-between items-center">
-                <p className="lg:text-[28px] text-[18px] font-semibold">
+                <p className="lg:text-[24px] text-[18px] font-semibold">
                   {faq.question}
                 </p>
                 {activeFaq === faq.id ? <MinusIcon /> : <PlusIcon />}
               </div>
               {activeFaq === faq.id && (
-                <p className="mt-4 lg:text-[20px] text-[#606060]">
+                <p className="mt-4 lg:text-[18px] text-[#606060]">
                   {faq.answer}
                 </p>
               )}

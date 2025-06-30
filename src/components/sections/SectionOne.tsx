@@ -27,7 +27,7 @@ const SectionOne = () => {
 
       <div className="lg:p-14 p-4 flex lg:flex-row flex-col justify-between items-center">
         <div className="lg:w-[45%] z-10">
-          <div className="leading-30">
+          <div className="lg:leading-30">
             <h1 className="lg:text-[96px] text-[38px] text-center lg:text-start font-semibold">
               No Fees.
             </h1>

@@ -6,7 +6,7 @@ const Newsletter = () => {
       <div className="w-[90vw] mx-auto flex lg:flex-row flex-col justify-between items-center">
         <div className="flex lg:flex-row flex-col items-center space-x-6">
           <EmailNewsletterIcon />
-          <p className="text-white lg:text-[40px] leading-tight text-[24px] lg:w-[70%] lg:text-start text-center lg:mt-0 mt-4 font-bold">
+          <p className="text-white lg:text-[34px] leading-tight text-[24px] lg:w-[70%] lg:text-start text-center lg:mt-0 mt-4 font-bold">
             Subscribe to our news weekly newsletter
           </p>
         </div>

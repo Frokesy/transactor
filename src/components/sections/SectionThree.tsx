@@ -53,12 +53,12 @@ const SectionThree = () => {
 
   return (
     <div ref={ref} className="w-[90vw] mx-auto overflow-hidden mb-[8vh]">
-      <h2 className="text-[32px] lg:text-[80px] font-bold leading-tight lg:leading-[1.1]">
+      <h2 className="text-[32px] lg:text-[60px] font-bold leading-tight lg:leading-[1.1]">
         Real People. Real Transfers. Real Impact.
       </h2>
 
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mt-4 space-y-4 lg:space-y-0">
-        <p className="text-[18px] lg:text-[32px] lg:w-[60%]">
+        <p className="text-[18px] lg:text-[24px] lg:w-[60%]">
           Join thousands of Australians who trust Transactor to send money home
           — safely, quickly, and with heart.
         </p>
