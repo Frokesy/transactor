@@ -73,7 +73,7 @@ const Company = () => {
             <img
               src="/assets/about-img-two.png"
               alt="Image"
-              className="w-[100%] object-cover"
+              className="w-[100%] lg:h-[550px] lg:object-cover"
             />
             <img
               src="/assets/about-img-three.png"

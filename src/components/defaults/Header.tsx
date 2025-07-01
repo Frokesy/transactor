@@ -1,11 +1,15 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Hamburger } from "../svgs/Icons";
+import { CaretDown, Hamburger } from "../svgs/Icons";
 import { X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import CompanyDropdown from "../dropdowns/companyDropdown";
+import ProductsDropdown from "../dropdowns/productsDropdown";
 
 const Header = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [showCompanyDropdown, setShowCompanyDropdown] = useState(false);
+  const [showProductsDropdown, setShowProductsDropdown] = useState(false);
 
   return (
     <>
@@ -18,10 +22,45 @@ const Header = () => {
           {/* Desktop Nav */}
           <div className="space-x-10 uppercase text-[14px] lg:flex hidden items-center">
             <NavLink to="/blog">Blog</NavLink>
-            <NavLink to="/wallet">Wallet</NavLink>
-            <NavLink to="/about">Company</NavLink>
-            <NavLink to="/help">Help</NavLink>
-            <NavLink to="/faqs">FAQs</NavLink>
+            <div className="relative">
+              <div
+                className="space-x-3 flex items-center cursor-pointer"
+                onClick={() => {
+                  setShowCompanyDropdown((prev) => !prev);
+                  setShowProductsDropdown(false);
+                }}
+              >
+                <span
+                // className={`${active === "Programmes" && "text-[#00689E] font-semibold"}`}
+                >
+                  Company
+                </span>
+                <CaretDown />
+              </div>
+              <AnimatePresence>
+                {showCompanyDropdown && <CompanyDropdown />}
+              </AnimatePresence>
+            </div>
+
+            <div className="relative">
+              <div
+                className="space-x-3 flex items-center cursor-pointer"
+                onClick={() => {
+                  setShowProductsDropdown((prev) => !prev);
+                  setShowCompanyDropdown(false);
+                }}
+              >
+                <span
+                // className={`${active === "Programmes" && "text-[#00689E] font-semibold"}`}
+                >
+                  Products
+                </span>
+                <CaretDown />
+              </div>
+              <AnimatePresence>
+                {showProductsDropdown && <ProductsDropdown />}
+              </AnimatePresence>
+            </div>
           </div>
 
           <div className="lg:flex hidden items-center space-x-6 uppercase text-[16px] font-semibold">
@@ -49,7 +88,7 @@ const Header = () => {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ type: "tween", duration: 0.3 }}
-            className="fixed top-0 right-0 h-full w-[80%] bg-gray-700 z-50 shadow-lg px-6 py-6"
+            className="fixed top-0 right-0 h-full w-[80%] bg-gray-800 z-50 shadow-lg px-6 py-6"
           >
             <div className="flex justify-between items-center mb-8">
               <NavLink to="/" className="text-[24px] font-semibold">
@@ -64,18 +103,45 @@ const Header = () => {
               <NavLink to="/blog" onClick={() => setIsDrawerOpen(false)}>
                 Blog
               </NavLink>
-              <NavLink to="/wallet" onClick={() => setIsDrawerOpen(false)}>
-                Wallet
-              </NavLink>
-              <NavLink to="/about" onClick={() => setIsDrawerOpen(false)}>
-                Company
-              </NavLink>
-              <NavLink to="/help" onClick={() => setIsDrawerOpen(false)}>
-                Help
-              </NavLink>
-              <NavLink to="/faqs" onClick={() => setIsDrawerOpen(false)}>
-                FAQs
-              </NavLink>
+              <div className="relative">
+                <div
+                  className="space-x-3 flex items-center cursor-pointer justify-between"
+                  onClick={() => {
+                    setShowCompanyDropdown((prev) => !prev);
+                    setShowProductsDropdown(false);
+                  }}
+                >
+                  <span
+                  // className={`${active === "Programmes" && "text-[#00689E] font-semibold"}`}
+                  >
+                    Company
+                  </span>
+                  <CaretDown />
+                </div>
+                <AnimatePresence>
+                  {showCompanyDropdown && <CompanyDropdown />}
+                </AnimatePresence>
+              </div>
+
+              <div className="relative">
+                <div
+                  className="space-x-3 flex items-center cursor-pointer justify-between"
+                  onClick={() => {
+                    setShowProductsDropdown((prev) => !prev);
+                    setShowCompanyDropdown(false);
+                  }}
+                >
+                  <span
+                  // className={`${active === "Programmes" && "text-[#00689E] font-semibold"}`}
+                  >
+                    Products
+                  </span>
+                  <CaretDown />
+                </div>
+                <AnimatePresence>
+                  {showProductsDropdown && <ProductsDropdown />}
+                </AnimatePresence>
+              </div>
             </div>
 
             <div className="mt-10 flex flex-col space-y-4">
