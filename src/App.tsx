@@ -69,7 +69,7 @@ const AppRoutes = () => {
           }
         />
         <Route
-          path="/blog"
+          path="/resources"
           element={
             <PageWrapper>
               <Blog />

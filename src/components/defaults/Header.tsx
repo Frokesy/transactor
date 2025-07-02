@@ -21,7 +21,7 @@ const Header = () => {
 
           {/* Desktop Nav */}
           <div className="space-x-10 uppercase text-[14px] lg:flex hidden items-center">
-            <NavLink to="/blog">Blog</NavLink>
+            <NavLink to="#">Send Money</NavLink>
             <div className="relative">
               <div
                 className="space-x-3 flex items-center cursor-pointer"
@@ -61,6 +61,8 @@ const Header = () => {
                 {showProductsDropdown && <ProductsDropdown />}
               </AnimatePresence>
             </div>
+
+            <NavLink to="/resources">Resources</NavLink>
           </div>
 
           <div className="lg:flex hidden items-center space-x-6 uppercase text-[16px] font-semibold">
@@ -100,8 +102,8 @@ const Header = () => {
             </div>
 
             <div className="flex flex-col space-y-6 text-[15px] uppercase font-medium">
-              <NavLink to="/blog" onClick={() => setIsDrawerOpen(false)}>
-                Blog
+              <NavLink to="#" onClick={() => setIsDrawerOpen(false)}>
+                Send Money
               </NavLink>
               <div className="relative">
                 <div
@@ -142,6 +144,10 @@ const Header = () => {
                   {showProductsDropdown && <ProductsDropdown />}
                 </AnimatePresence>
               </div>
+
+              <NavLink to="/resources" onClick={() => setIsDrawerOpen(false)}>
+                Resources
+              </NavLink>
             </div>
 
             <div className="mt-10 flex flex-col space-y-4">
